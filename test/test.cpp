@@ -3,11 +3,6 @@
 
 #include "Person.h"
 
-namespace global
-{
-	static int bla = 8;
-}
-
 int main()
 {
 	Person p("bla", "hello", 12);
