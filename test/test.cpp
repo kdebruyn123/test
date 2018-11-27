@@ -3,6 +3,7 @@
 
 #include "Person.h"
 
+int Person::age = 0;
 int main()
 {
 	Person p("bla", "hello", 12);
