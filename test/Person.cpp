@@ -12,6 +12,7 @@ Person::Person(std::string in_name, std::string in_surname, int in_age)
 
 Person::~Person()
 {
+	std::cout << "Hit the destructor." << std::endl;
 }
 
 void Person::PrintPerson()
